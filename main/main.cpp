@@ -1,10 +1,9 @@
 #include <iostream>
-#include "MyVector.h"
+#include "ArrayList.h"
 
 int main()
 {
-  Vector<int> a(3, 3);
+    TArrayList<int> temp(3);
 
-  std::cout<< a << "\nHi\n";
-  return 0;
+    return 0;
 }
